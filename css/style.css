@@ -1,0 +1,67 @@
+body{
+	font-family: 'Open Sans';
+	background-image: url('../images/img_01.jpg');
+	
+	
+}
+.container{
+	max-width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: floralwhite;
+	border-radius: 10px;
+	padding: 20px;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+.w-75 {
+  flex: 0 0 75%;
+  max-width: 75%;
+}
+.w-25 {
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+.text-center{
+text-align: center;
+}
+.user{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+
+h1{
+	font-family: 'Lucida Calligraphy';
+	font-size: 25px;
+	text-align: center;
+}
+.vitae li{
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 16px;
+  border-bottom: 1px solid #001010;
+}
+.vitae li ul li{
+	font-weight: lighter;
+	font-size: 15px;
+	margin-bottom: 0px;
+	border-bottom: none;
+}
+
+.vitae ul{
+	list-style: none;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+		table, th, td{
+			border-spacing: 0;
+		}
+		th, td{
+			padding: 5px;
+		}
+		table {
+			margin:5px;
+		}
